@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- I take Brian's Flip Card Demo (https://codesandbox.io/s/flip-card-demo-forked-05n9qq?file=/index.html)
+as the reference to set up the card that can be fliped. I initial idea is to let users make quick decisions
+base on pics of food and dishes, and clip the card to see more details about the restaurant at the back -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Food Decision Maker</title>
+</head>
+<!-- I got confused here and I don't know what I am doing. I am try to replace the messages on the card
+to the data from restaurant.json, and it doesn't works -->
+<body>
+    <h1 class="project_heading">What's for Dinner???</h1>
+    <section class="project_container">
+        <div class="card" class="restaurant_name" class="flex-center">
+            <div class="cardContent" class="flex-center">
+                <div class="cardFront">
+                    <img id="disn-image" />
+                </div>
+                <div class="cardBack">
+                    <p class="flex-center" id= "restaurantdish"></p>
+                    <h3 id="restaurant"></h3>
+                    <p id="price"></p>
+                    <!-- <p id="rating"></p> -->
+                    <h3>
+                        <span id="rating-price"></span> Rating / Price
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<div class="button" class="flex-center">
+    <button id= "shuffle" class="flex-center">Maybe Next Food</button>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
